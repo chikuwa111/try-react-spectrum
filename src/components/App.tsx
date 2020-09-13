@@ -1,4 +1,5 @@
 import React from "react";
+import { SingleCheckboxExample } from "./SingleCheckbox";
 import { TextFieldExample } from "./TextField";
 
 export function App() {
@@ -6,6 +7,7 @@ export function App() {
     <>
       <h1>Hello React Spectrum!</h1>
       <TextFieldExample />
+      <SingleCheckboxExample />
     </>
   );
 }
